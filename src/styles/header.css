@@ -1,0 +1,47 @@
+.header{
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.inbox,.filter{
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.inbox{
+    float: left;
+    padding-left:80px; 
+}
+
+.filter{
+    float: right;
+    color: #4898E1;
+    padding-right: 25px;
+}
+
+.arrow-down{
+    background-image: url("./asset/arrow-down.png");
+    height:7.5px;
+    width:13.5px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0px 0px 1px 5px;
+}
+
+@media screen and (max-width:400px) {
+    .inbox{
+        padding-left: 65px;
+    }
+    .filter{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .inbox{
+        padding-left: 60px;
+    }
+}
